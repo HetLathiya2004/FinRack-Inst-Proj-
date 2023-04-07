@@ -1,0 +1,212 @@
+#title{
+    background-color: rgb(2, 90, 60);
+}
+
+.container-fluid{
+padding: 3% 15% 7%;
+}
+
+
+h1{
+ 
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: aliceblue;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+p{
+    color: gray;
+    font-size: 1.5rem;
+}
+
+body{
+    font-family: 'Ubuntu';
+}
+
+.button{
+    margin: 5% 3% 3% ;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #27bf78;
+    position: relative;
+    display: block;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 7%;
+}
+
+.icon{
+    color:  rgb(2, 90, 60) ;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:  #087450;
+}
+
+.row{
+    display: table;
+    width: 100%; 
+    table-layout: fixed; 
+    border-spacing: 10px;
+
+}
+
+.col{
+    display: table-cell;
+    
+}
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    background-color: #087450;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #27bf78 ;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center; 
+}
+
+
+.ctah{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #087450;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(2, 90, 60);
+    overflow: auto;
+  }
+
+
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  .button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .nav-link{
+    float: right;
+  }
+
+
+  /* bootstrap css for cards */
+
+  .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+
+  .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+  }
+
+
+  .card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  
